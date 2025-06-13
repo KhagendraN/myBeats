@@ -1,0 +1,73 @@
+configuration {
+    font: "JetBrainsMono Nerd Font Bold 14";
+    drun-display-format: "{name}";
+}
+
+@theme "~/.config/rofi/theme.rasi"   
+
+* {
+    background-color:rgba(0, 0, 0, 0);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3));    // Gradient background
+    text-color: #eeeeee;
+}
+
+window {
+    transparency: "real";
+    background-color: rgba(243, 24, 239, 0.3);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3));    // Gradient background
+    border: 2px;
+    border-color: #ff00cc;
+    border-radius: 20px;
+    padding: 30px;
+    width: 700px;
+    location: center;
+}
+
+mainbox {
+    children: [inputbar, listview];
+    spacing: 20px;
+}
+
+inputbar {
+    background-color: transparent;
+    padding: 10px 15px;
+    children: [prompt, entry];
+}
+
+prompt {
+    text-color: #ff00cc;
+    font: "JetBrainsMono Nerd Font Bold 14";
+    padding: 0 10px 0 0;
+}
+
+entry {
+    text-color: #ffffff;
+    background-color: transparent;
+    placeholder: "🔍 Search Here....";
+}
+
+listview {
+    lines: 10;
+    spacing: 10px;
+    fixed-height: false;
+    scrollbar: false;
+}
+
+element {
+    padding: 10px 15px;
+    background-color: transparent;
+    text-color: #ffffff;
+    border-radius: 10px;
+}
+
+element selected {
+    background-color: #ff00cc;
+    text-color: #0f0f1a;
+    border-radius: 10px;
+    font: "JetBrainsMono Nerd Font Bold 13";
+}
+
+element-text {
+    background-color: transparent;
+    text-color: inherit;
+}
