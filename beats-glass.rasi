@@ -3,7 +3,7 @@ configuration {
     drun-display-format: "{name}";
 }
 
-@theme "~/.config/rofi/theme.rasi"   
+@theme "theme.rasi"   
 
 * {
     background-color:rgba(0, 0, 0, 0);
