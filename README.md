@@ -107,6 +107,7 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 Pull requests, suggestions, and improvements are welcome!
 If you find bugs or have ideas for new features, feel free to open an issue or submit a PR.
+- Or just start with a ⭐ star :)
 
 ---
 
